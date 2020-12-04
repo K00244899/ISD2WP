@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/90684e02cc.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- html tags for nav bar -->
+        <div class="container">
+                <div id="compLogo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo with name"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><input type="text" name="box" placeholder="Search in this site...">  
+                
+                            <a href="#"> <i class="fas fa-search"></i></a> 
+                        </li>
+                        <li><a href="index.html">Home</a></li>
+                       
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="login.html"><i class="fas fa-user-plus"></i></a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <!-- hero image and contents in side the image -->
+   
+    <!-- three card layouts with text and images -->
+    <section id="Register">
+        <div class="container">          
+                
+             
+           
+            <form action="">
+                <input type="email" placeholder="Enter email....">
+                <button type="submit" class="button-1">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    
+     <div class="loginForm">  
+        <div class="loginUser">
+           
+            <fieldset style="height: 400px; color: green; width: 300px;">
+                <legend> <h3>User only</h3></legend>
+            <form action="userPage.html" method="GET">
+
+                <label for="email"><i class="fas fa-envelope"></i> Email</label><br>
+
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password"><i class="fas fa-lock"></i> Password</label><br>
+                <div id="pwdWrap">
+                    <input type="password" id="password" name="password" required>
+                    <i class="fas fa-eye eyeIcon"></i>
+                </div><br><br>
+
+                <div>
+                    <button type="submit" id="loginBtn">Login <i class="fas fa-angle-right"></i></button>
+                </div>
+
+                <aside>
+                    <p><a href="#">Forgot your password?</a> <br> Don’t have a Fine Feather account? <a href="signUp.html">Join Now</a>.</p>
+                </aside>
+            </form>
+        </fieldset>
+              
+        </div>
+        <div class="loginAdmin">
+           
+            <fieldset style="height: 400px;color: red; width: 300px;"> 
+                <legend> <h3>Admin only</h3></legend>     
+            <form action="userPage.html" method="GET">
+
+                <label for="userid"><i class="fas fa-user-tie"></i>Username</label><br>
+
+                <input type="text" id="uName" name="uName" required><br><br><br>
+
+                <label for="password"><i class="fas fa-lock"></i> Password</label><br>
+               
+                    <input type="password" id="password" name="password" required>
+                    <i class="fas fa-eye eyeIcon"></i>
+                <br><br>
+
+                <div>
+                    <button type="submit" id="loginBtn">Login <i class="fas fa-angle-right"></i></button>
+                </div>
+
+               
+            </form>
+        </fieldset> 
+        </div>
+    </div>    
+
+    </section>
+    
+
+    <footer class="footer">
+        <div class="social-links">
+            <ul>
+                <li class="link-items"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="link-items"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="link-items"><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+                <li class="link-items"><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+            </ul>
+        </div>
+        <div class="menu-link">
+                 <li class="menu-item"><a href="index.html">Home</a></li>
+                 <li class="menu-item"><a href="aboutus.html">About Us</a></li>
+                 <li class="menu-item"><a href="#">Testimonial</a></li>
+                 <li class="menu-item"><a href="#">Contact Us</a></li>
+            
+        </div> 
+        <div class="botton-footer">
+            <p>Copyright &copy; Fine Feather. All Rights Reserved </p>
+        </div>    
+     </footer>
+     <script src="index.js"></script>
+</body>
+</html>

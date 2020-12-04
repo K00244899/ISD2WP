@@ -1,0 +1,325 @@
+body { font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 0px;
+        margin: 0px;
+        background-color: #f4f4f4;
+        }
+ .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+ } 
+ header {
+        background-color: #35424a;
+        color: white;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #e8491d 3px solid;
+ } 
+ header a {color: white;
+            text-decoration: none;
+            padding: 0 10px 0 10px;
+            }  
+header ul {
+            margin: 0px;
+            padding: 10px;
+} 
+header li {list-style-type: none;
+            float: left;
+            padding: 0 10px 0 10px;
+            text-transform: uppercase;} 
+header #compLogo{
+            float: left;
+            padding-left: 2px;
+} 
+header #compLogo img{margin: 0px;}
+header nav {float: right;
+            ;}  
+header a:hover{
+    color: red;
+    font-weight: bold;
+} 
+.fa-cart-plus{color:red;
+    font-weight: bolder;
+font-size: 20px;}
+ .fa-search{color: red;
+    font-size: 20px;}
+ .fa-user-plus{color: red;
+    font-size: 20px;}   
+ header nav input{border: 2px solid red;
+                height: 25px;
+                border-radius: 20px;
+                width: 200px;}   
+#heroText {
+    min-height: 400px;
+    background-image: url(images/heroImage10.jpg);
+    text-align: left;
+    color: white;
+} 
+
+#heroText h1 {margin-top: 100px;
+            margin-bottom: 10px;
+            text-align: right;
+          
+            
+    
+} 
+
+#heroText button{float: right;
+                background-color:green;
+                color: white;
+                height: 40px;
+                border-radius: 10px;
+                font-weight: bolder;
+                border: 3px solid white;
+                cursor: pointer;}
+#heroText p{color: red;
+            font-style: italic;
+        text-align: right;
+        font-size: medium;}
+
+#digitalClock{color: white;
+                font-size: medium;
+                float: right;
+                padding-top: 10px;}          
+#Register{
+    padding:15px;
+    color: #ffffff;
+    background-color: #35424e;
+
+} 
+#Register h2{float: left;}
+#Register form {float: right;
+   margin-top: 15px; } 
+ #Register form input {height: 25px;
+        width: 250px;
+        }    
+.button-1 {
+    height: 30px;
+    background-color: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    cursor: pointer;
+} 
+#boxPics  {margin-top: 20px;
+            width: 100%;} 
+#boxPics h1 {
+    text-align: center;
+}
+#boxPics2 h1 {
+    text-align: center;
+} 
+
+                     
+#boxPics .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    
+} 
+#boxPics .box img{
+    width: 250px;
+    height: 300px;
+}
+#boxPics2 .box {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  
+    color: orangered;
+    
+} 
+#boxPics2 .box img{
+    margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    
+} 
+.footer {margin: 0px;
+    padding: 0px;
+    background-color: black   ;}  
+.social-links {display: flex;
+            justify-content: center;} 
+.social-links ul {display: flex;}  
+.link-items {list-style: none;} 
+.link-items a {
+            padding: 10px 60px;
+            font-size: 40px;
+            color: red;
+} 
+.menu-link {display: flex;
+        justify-content: center;} 
+.menu-link ul {display: flex;}  
+.menu-item {list-style: none;
+        margin-bottom: 20px;} 
+.menu-item a {padding: 10px 60px;
+            font-size: 20px;
+            color: white    ;
+            text-decoration: none;} 
+.botton-footer {display: flex;
+            justify-content: center;
+            background-color: green;    
+        } 
+.botton-footer p {color: white;}  
+#paraText {width: 90%;
+    padding: 20px;
+    display: flex;
+    align-self: center;
+    margin-left: 50px;
+    background-color: rosybrown;
+    margin-bottom: 40px;
+    margin-top: 30px;
+} 
+
+
+.sign_up{ width: 300px;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0.3);
+            background: white;
+            padding: 20px;
+            margin: 30px auto 0;
+            text-align: center;
+            margin-bottom: 30PX;}
+            
+.sign_up p{color:green;} 
+.sign_up h1 {color: #1c8adb;}  
+#fname,#email,#pword,#repword,#mob {border-radius: 20px;
+            padding: 10px;
+            margin: 10px 0;
+          
+            border: 1px solid #999;
+            outline: none;}  
+#su_button{
+        width: 100%;
+        color: black;
+        height: 40px;
+        cursor: pointer;
+        background-color:1c8adb ;
+        border-radius: 20px;
+        outline: none;
+        font-size: large;
+} 
+.sign_up img{width: 70px;}
+aside a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}  
+.aboutUs{width: 70%;
+        background-color: #999;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        } 
+.aboutSec {
+    padding: 20px 30px 20px 30px;
+    
+} 
+.services {display: flex;
+justify-content: space-between;
+font-weight: 700;
+color: black;
+padding: 40px 40px 40px 40px;}  
+.brandSec{background-color: grey;
+     width: 95%;
+      height: 300px; 
+      margin: 40px auto 40px auto;   
+     justify-content: center;
+    } 
+ .brandSec ul{
+ 
+     display: flex;
+     
+     justify-content: space-around;
+
+ }  
+ .brandSec li{
+     padding: 0 40px 40px 0;
+     list-style-type: none;
+ } 
+ .loginForm {
+     background-color: rgb(216, 209, 209);
+     margin-bottom: 0px;
+     display: flex;
+     padding: 20px 0 20px 0;
+    justify-content: space-around;
+    
+ }
+ .loginUser form button{
+     text-align: centre;
+     margin-left: auto;
+     margin-right: auto;
+ }
+.userPortal{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+} 
+.cartSec{
+    width: 800px;
+    height: 600px;
+    border: solid 1px black;
+    text-align: center;
+} 
+.cartSecHeading{background-color: steelblue;
+    height: 40px;
+    
+} 
+.cartSecHeading h3{padding-top: 6px;
+color: white;} 
+.cartSec
+ .cartCentre .fa-cart-arrow-down {
+    color: steelblue;
+    font-size: 100px;
+} 
+.cartCentre{
+    margin-top: 40px;
+} 
+.cartSummary{ width: 300px;
+    height: 4   00px;
+    border: solid 1px black;
+    text-align: center;}
+.cartSummaryHeading{
+    background-color: steelblue;
+    height: 40px;
+}    
+.cartSummaryHeading h3{
+    padding-top: 6px;
+    color: white;
+} 
+.cartSec button{
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border: solid 2px black;
+    border-radius: 10px;
+} 
+.cartSec2{
+    width: 900px;
+    height: auto;
+    border: solid 1px black;
+    text-align: center;
+}  
+.addPro_row1, .addPro_row2{
+    padding-top: 20px;
+}
+.brandHeader{
+    text-align: center;
+    padding: 30px;
+}
+.brandList{padding-top: 10px;}
+.loginAdmin form{
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+             
+            
